@@ -3,6 +3,7 @@
 import { MessageSquare, FileSignature, Scissors, Truck } from "lucide-react";
 import { motion } from "framer-motion";
 import Sidebar from "@/components/sidebar";
+import FooterMain from "@/components/foot-main/app";
 
 export default function HowToOrder() {
   const steps = [
@@ -107,7 +108,7 @@ export default function HowToOrder() {
             className="mt-16 text-center"
         >
             <a 
-                href="https://wa.me/6281234567890" // Ganti dengan nomor WA konveksi Anda (gunakan format 62...)
+                href="https://wa.me/6285755984218" // Ganti dengan nomor WA konveksi Anda (gunakan format 62...)
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-gray-900 hover:bg-red-600 text-white px-8 py-3.5 rounded-full font-semibold transition-colors duration-300 shadow-lg"
@@ -119,6 +120,8 @@ export default function HowToOrder() {
 
       </div>
     </section>
+    <FooterMain/>
+
     </>
     
   );

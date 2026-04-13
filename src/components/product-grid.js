@@ -1,5 +1,4 @@
 import productData from '../private/data-product.json';
-import { Heart, Filter, ChevronDown } from 'lucide-react';
 import Link from 'next/link';
 
 export default function ProductGrid(){

@@ -10,7 +10,6 @@ export default function Sidebar() {
     const listMenu = [
         { label: "Beranda", href: "/", hasArrow: false },
         { label: "Katalog Produk", href: "/katalog", hasArrow: true, icon: <Flame className="w-5 h-5 text-red-500" /> },
-        { label: "Jasa Desain", href: "/jasa-desain", hasArrow: false },
         { label: "Panduan Ukuran", href: "/panduan-ukuran", hasArrow: false },
         { label: "Cara Pesan", href: "/cara-pesan", hasArrow: false },
     ];
@@ -20,7 +19,7 @@ export default function Sidebar() {
             <div className="w-full flex items-center p-4 bg-white shadow-sm border-b">
                 <button 
                     onClick={() => setIsOpen(true)}
-                    className="p-2 mr-3 rounded-md focus:outline-none hover:bg-gray-100 transition-colors"
+                    className="mr-2 rounded-md focus:outline-none hover:bg-gray-100 transition-colors"
                     aria-label="Buka Menu"
                 >
                     <Menu className="w-6 h-6 text-gray-700" />

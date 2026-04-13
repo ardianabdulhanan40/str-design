@@ -1,4 +1,5 @@
 "use client";
+import FooterMain from "@/components/foot-main/app";
 import Sidebar from "@/components/sidebar";
 
 export default function PanduanUkuran() {
@@ -45,8 +46,9 @@ export default function PanduanUkuran() {
             <div className="max-w-4xl mt-6 text-gray-500 text-sm italic text-left">
                 * Ukuran dalam centimeter (cm).
             </div>
-            
         </div>
+        <FooterMain/>
+
     </>
     )    
 }
